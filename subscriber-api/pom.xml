@@ -31,18 +31,19 @@
 		<dependency>
 			<groupId>org.springframework.integration</groupId>
 			<artifactId>spring-integration-core</artifactId>
+			<version>2.1.0.RELEASE</version>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-gcp-starter-pubsub</artifactId>
-			<version>1.2.8.RELEASE</version> <!-- 最新のバージョンを指定 
-			https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gcp-starter-pubsub-->
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-pubsub</artifactId>
+			<version>1.125.6</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>3.0.2</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -66,7 +67,8 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
+				<!-- <version>${spring-cloud.version}</version> -->
+				<version>2022.0.0</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
