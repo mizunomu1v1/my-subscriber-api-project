@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 @EnableBinding(Sink.class)
 public class PubSubSubscriber {
 
-    @StreamListener(Sink.INPUT)
-    public void receiveMessage(String message) {
-        // メッセージを受信したときの処理
-        System.out.println("Received message: " + message);
-    }
+	@StreamListener(Sink.INPUT)
+	public void receiveMessage(String message) {
+		// メッセージを受信したときの処理
+		System.out.println("Received message: " + message);
+	}
 }

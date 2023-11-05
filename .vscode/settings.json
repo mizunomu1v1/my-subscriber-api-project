@@ -1,8 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "disabled",
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.project.referencedLibraries": [
-        "Maven: com.example:subscriber-api:0.0.1-SNAPSHOT",
-        "my-subscriber-api-project/subscriber-api/src/main/java/com"
-      ]
+    "java.debug.settings.onBuildFailureProceed": true,
 }
